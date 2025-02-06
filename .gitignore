@@ -1,0 +1,36 @@
+# Ignore Visual Studio temporary files, build results, and personal settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build output directories
+bin/
+obj/
+out/
+
+# Ignore packages folder
+packages/
+!packages/repositories.config
+
+# Ignore Rider project files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+.vs/
+# Ignore logs and generated files
+logs/
+*.log
+*.tlog
+
+# Ignore secrets and settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+
+# Ignore NuGet packages cache
+**/packages/*
+**/node_modules/*
